@@ -27,12 +27,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 #endif
 
 #if defined(_MSC_VER)
-#  if !defined(_CRT_NONSTDC_NO_DEPRECATE)
-#    define _CRT_NONSTDC_NO_DEPRECATE
-#  endif
-#  if !defined(_CRT_SECURE_NO_WARNINGS)
-#    define _CRT_SECURE_NO_WARNINGS
-#  endif
 #  if !defined(__clang__)
 #    define inline __inline
 #  endif
@@ -114,17 +108,17 @@ int main(int argc, char **argv) {
   for (int i = 1; i < argc;) {
     // no args
     const char *a = argv[i++];
-    if (strcmp(a, "-h") == 0)
+    if (strncmp(a, "-h", strlen(a)) == 0)
       USAGE(argc, argv);
-    if (strcmp(a, "-v") == 0) {
+    if (strncmp(a, "-v", strlen(a)) == 0) {
       verbosity++;
       continue;
     }
-    if (strcmp(a, "-encode") == 0) {
+    if (strncmp(a, "-encode", strlen(a)) == 0) {
       op = LZFSE_ENCODE;
       continue;
     }
-    if (strcmp(a, "-decode") == 0) {
+    if (strncmp(a, "-decode", strlen(a)) == 0) {
       op = LZFSE_DECODE;
       continue;
     }

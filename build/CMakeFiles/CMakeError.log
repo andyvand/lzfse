@@ -1,0 +1,109 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Microsoft (R) Build Engine version 15.4.8.50001 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 30/10/2017 13:34:35.
+Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+C:\Program Files\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(360,5): error MSB6003: The specified task executable "CL.exe" could not be run. Kan geen toegang krijgen tot het bestand C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\Debug\CompilerIdC.tlog omdat het wordt gebruikt door een ander proces. [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(360,5): error MSB6003: The specified task executable "CL.exe" could not be run. Kan geen toegang krijgen tot het bestand C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\Debug\CompilerIdC.tlog omdat het wordt gebruikt door een ander proces. [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\3.9.4\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:10.20
+
+
+Performing C SOURCE FILE Test CFLAG_Wno_unknown_pragmas failed with the following output:
+Change Dir: C:/Users/marc/Downloads/lzfse/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_524c0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.4.8.50001 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 30/10/2017 13:35:29.
+Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_524c0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_524c0.dir\Debug\".
+  Creating directory "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_524c0.dir\Debug\cmTC_524c0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_524c0.dir\Debug\cmTC_524c0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CFLAG_Wno_unknown_pragmas /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_524c0.dir\Debug\\" /Fd"cmTC_524c0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wno-unknown-pragmas C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.11.25547 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CFLAG_Wno_unknown_pragmas /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_524c0.dir\Debug\\" /Fd"cmTC_524c0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wno-unknown-pragmas C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\src.c
+cl : Command line error D8021: invalid numeric argument '/Wno-unknown-pragmas' [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_524c0.vcxproj]
+Done Building Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_524c0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_524c0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line error D8021: invalid numeric argument '/Wno-unknown-pragmas' [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_524c0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:05.22
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAG_Wno_unused_variable failed with the following output:
+Change Dir: C:/Users/marc/Downloads/lzfse/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6b7de.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.4.8.50001 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 30/10/2017 13:35:36.
+Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_6b7de.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6b7de.dir\Debug\".
+  Creating directory "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6b7de.dir\Debug\cmTC_6b7de.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6b7de.dir\Debug\cmTC_6b7de.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CFLAG_Wno_unused_variable /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b7de.dir\Debug\\" /Fd"cmTC_6b7de.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wno-unused-variable C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.11.25547 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CFLAG_Wno_unused_variable /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b7de.dir\Debug\\" /Fd"cmTC_6b7de.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wno-unused-variable C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\src.c
+cl : Command line error D8021: invalid numeric argument '/Wno-unused-variable' [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_6b7de.vcxproj]
+Done Building Project "C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_6b7de.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_6b7de.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line error D8021: invalid numeric argument '/Wno-unused-variable' [C:\Users\marc\Downloads\lzfse\build\CMakeFiles\CMakeTmp\cmTC_6b7de.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:06.79
+
+Source file was:
+int main(void) { return 0; }

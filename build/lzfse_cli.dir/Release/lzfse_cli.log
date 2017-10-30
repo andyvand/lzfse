@@ -1,0 +1,61 @@
+﻿  lzfse_main.c
+c:\users\marc\downloads\lzfse\src\lzfse.h(56): warning C4255: 'lzfse_encode_scratch_size': no function prototype given: converting '()' to '(void)'
+c:\users\marc\downloads\lzfse\src\lzfse.h(94): warning C4255: 'lzfse_decode_scratch_size': no function prototype given: converting '()' to '(void)'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(49): warning C4820: '_finddata32i64_t': '4' bytes padding added after data member 'name'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(54): warning C4820: '_finddata64i32_t': '4' bytes padding added after data member 'attrib'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(64): warning C4820: '__finddata64_t': '4' bytes padding added after data member 'attrib'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(69): warning C4820: '__finddata64_t': '4' bytes padding added after data member 'name'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winuser.h(6502): warning C4255: 'EnableMouseInPointerForThread': no function prototype given: converting '()' to '(void)'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7542): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7548): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7553): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7557): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7564): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7574): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7578): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7583): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(7777): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(12232): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(12249): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(12266): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(12285): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files\Windows Kits\10\Include\10.0.16299.0\um\winioctl.h(12404): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(61): warning C4255: 'get_time': no function prototype given: converting '()' to '(void)'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(82): warning C4100: 'argc': unreferenced formal parameter
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(165): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(187): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(530): note: see declaration of 'setmode'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(213): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(224): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(291): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(303): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(530): note: see declaration of 'setmode'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(310): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(558): note: see declaration of 'write'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(322): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c(331): warning C4710: 'int fprintf(FILE *const ,const char *const ,...)': function not inlined
+  C:\Program Files\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(826): note: see declaration of 'fprintf'
+c:\program files\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(641): warning C4710: '__local_stdio_printf_options': function not inlined
+C:\Users\marc\Downloads\lzfse\src\lzfse_main.c : warning C4710: '__local_stdio_printf_options': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(83): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(135): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(140): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(143): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(148): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(150): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(151): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(152): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(178): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(230): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(262): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(277): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(280): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(284): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(316): warning C4710: 'fprintf': function not inlined
+c:\users\marc\downloads\lzfse\src\lzfse_main.c(101): warning C4711: function 'get_time' selected for automatic inline expansion
+  lzfse_cli.vcxproj -> C:\Users\marc\Downloads\lzfse\build\Release\lzfse.exe

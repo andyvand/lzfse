@@ -1,0 +1,10 @@
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/lzfse.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/lzfse_cli.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/Experimental.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/Continuous.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/Nightly.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/INSTALL.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/marc/Downloads/lzfse/build/CMakeFiles/ZERO_CHECK.dir
